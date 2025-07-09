@@ -1,6 +1,6 @@
+
 import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import profileImage from '@/assets/yesh-profile.jpg';
 
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
@@ -27,7 +27,7 @@ const Hero = () => {
             <div className="relative">
               <div className="absolute -inset-1 bg-gradient-primary rounded-full blur opacity-75"></div>
               <img 
-                src={profileImage} 
+                src="/lovable-uploads/4ef50684-fddd-4988-bf29-449c4e04e524.png" 
                 alt="Yesh Kumar Kochar" 
                 className="relative w-32 h-32 sm:w-40 sm:h-40 rounded-full object-cover border-4 border-white shadow-strong"
               />
